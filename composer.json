@@ -30,8 +30,7 @@
     "kartik-v/yii2-grid": ">= 3.5.0",
     "kartik-v/yii2-widget-activeform": ">= 1.6.2",
     "kartik-v/yii2-widget-select2": ">= 2.2.3",
-    "kartik-v/yii2-sortable": "~1.2",
-    "nacastro/yii2-dynagrid": "@dev"
+    "kartik-v/yii2-sortable": "~1.2"
   },
   "autoload": {
     "psr-4": {
@@ -40,7 +39,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "1.5.x-dev"
+      "dev-master": "1.6.x-dev"
     }
   }
 }
