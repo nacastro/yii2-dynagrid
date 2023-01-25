@@ -7,7 +7,7 @@
  * @version   1.5.4
  */
 
-namespace kartik\dynagrid;
+namespace nacastro\dynagrid;
 
 use kartik\base\AssetBundle;
 
