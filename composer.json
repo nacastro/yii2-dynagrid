@@ -1,5 +1,5 @@
 {
-  "name": "kartik-v/yii2-dynagrid",
+  "name": "nacastro/yii2-dynagrid",
   "description": "Turbo charge the Yii 2 GridView with personalized columns, page size, and themes.",
   "keywords": [
     "yii2",
@@ -39,7 +39,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "1.6.x-dev"
+      "dev-master": "2.0.x-dev"
     }
   }
 }
