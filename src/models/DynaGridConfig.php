@@ -7,10 +7,10 @@
  * @version   1.5.4
  */
 
-namespace kartik\dynagrid\models;
+namespace nacastro\dynagrid\models;
 
 use kartik\base\Config;
-use kartik\dynagrid\Module;
+use nacastro\dynagrid\Module;
 use Yii;
 use yii\base\Model;
 
