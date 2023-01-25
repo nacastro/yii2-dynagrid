@@ -6,9 +6,9 @@
  */
 
 use kartik\base\Config;
-use kartik\dynagrid\Dynagrid;
-use kartik\dynagrid\models\DynaGridSettings;
-use kartik\dynagrid\Module;
+use nacastro\dynagrid\Dynagrid;
+use nacastro\dynagrid\models\DynaGridSettings;
+use nacastro\dynagrid\Module;
 use kartik\form\ActiveForm;
 use yii\helpers\Html;
 
