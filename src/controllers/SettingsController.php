@@ -7,9 +7,9 @@
  * @version   1.5.4
  */
 
-namespace kartik\dynagrid\controllers;
+namespace nacastro\dynagrid\controllers;
 
-use kartik\dynagrid\models\DynaGridSettings;
+use nacastro\dynagrid\models\DynaGridSettings;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\web\Controller;
