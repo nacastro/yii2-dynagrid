@@ -7,15 +7,15 @@
  * @version   1.5.4
  */
 
-namespace kartik\dynagrid;
+namespace nacastro\dynagrid;
 
 use Exception;
 use kartik\base\Config;
 use kartik\base\Lib;
 use kartik\base\Widget;
 use kartik\dialog\Dialog;
-use kartik\dynagrid\models\DynaGridConfig;
-use kartik\dynagrid\models\DynaGridSettings;
+use nacastro\dynagrid\models\DynaGridConfig;
+use nacastro\dynagrid\models\DynaGridSettings;
 use kartik\grid\GridView;
 use Yii;
 use yii\base\InvalidConfigException;
