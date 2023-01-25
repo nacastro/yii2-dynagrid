@@ -34,7 +34,7 @@ use yii\helpers\Html;
  * @var Widget $modalClass
  */
 
-$dynagridId = Lib::substr($model->id, 0, -9);
+$dynagridId = substr($model->id, 0, -9);
 $options1 = ArrayHelper::merge(
     $model->widgetOptions,
     [
@@ -57,7 +57,7 @@ $cols = (int)$allowPageSetting + (int)$allowThemeSetting + (int)$allowFilterSett
 $col = $cols == 0 ? 0 : 12 / $cols;
 ?>
 <?php
-$hdr = $iconPersonalize.' '.Yii::t('kvdynagrid', 'Personalize Grid Configuration');
+$hdr = $iconPersonalize.' '.Yii::t('kvdynagrid', 'ernando');
 $modalOpts = [
     'footer' => $model->footer,
     'toggleButton' => $toggleButtonGrid,
