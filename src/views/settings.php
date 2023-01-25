@@ -4,7 +4,6 @@
  * @package yii2-dynagrid
  * @version 1.5.4
  */
-
 use kartik\base\Config;
 use nacastro\dynagrid\Dynagrid;
 use nacastro\dynagrid\models\DynaGridSettings;
