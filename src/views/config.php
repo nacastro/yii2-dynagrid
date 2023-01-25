@@ -8,8 +8,8 @@
 use kartik\base\Config;
 use kartik\base\Lib;
 use kartik\base\Widget;
-use kartik\dynagrid\models\DynaGridConfig;
-use kartik\dynagrid\Module;
+use nacastro\dynagrid\models\DynaGridConfig;
+use nacastro\dynagrid\Module;
 use kartik\form\ActiveForm;
 use kartik\select2\Select2;
 use kartik\sortable\Sortable;
