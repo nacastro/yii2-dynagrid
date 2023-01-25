@@ -7,12 +7,12 @@
  * @version   1.5.4
  */
 
-namespace kartik\dynagrid\models;
+namespace nacastro\dynagrid\models;
 
 use kartik\base\Config;
-use kartik\dynagrid\DynaGrid;
-use kartik\dynagrid\DynaGridStore;
-use kartik\dynagrid\Module;
+use nacastro\dynagrid\DynaGrid;
+use nacastro\dynagrid\DynaGridStore;
+use nacastro\dynagrid\Module;
 use Yii;
 use yii\base\Model;
 use yii\base\InvalidConfigException;
