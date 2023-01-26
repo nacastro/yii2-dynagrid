@@ -11,7 +11,6 @@ namespace nacastro\dynagrid;
 
 use Exception;
 use kartik\base\Config;
-use kartik\base\Lib;
 use Yii;
 use yii\base\BaseObject;
 use yii\base\InvalidConfigException;
@@ -206,17 +205,11 @@ class DynaGridStore extends BaseObject
                 $newConfig = static::parseConfig(Yii::$app->request->cookies->getValue($this->_mstKey, false));
                 if (!empty($newConfig)) {
                     $config = $this->fetchConfig($newConfig);
-                }
-                //die('<pre>' . var_dump($config, true) . '</pre>');
+                }                
                 break;
             case Dynagrid::TYPE_DB:
                 $key = $this->_isMaster ? $this->_mstKey : $this->_dtlKey;
                 $config = $this->getDataFromDb($col, $key);
-                /*
-                if ($this->_isMaster && $col !== 'dataAttr') {
-                    die('<pre>' . var_dump($config, true) . '</pre>');
-                }
-                */
                 break;
             default:
                 throw new InvalidConfigException('Unknown storage: ' . $this->storage);
@@ -435,7 +428,7 @@ class DynaGridStore extends BaseObject
     {
         $key = $this->id;
         if (!$master) {
-            $key .= '_' . $this->category . '_' . hash('crc32', Lib::strtolower($this->name));
+            $key .= '_' . $this->category . '_' . hash('crc32', strtolower($this->name));
         }
         if ($this->userSpecific) {
             $key .= '_' . Yii::$app->user->id;
